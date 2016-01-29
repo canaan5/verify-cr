@@ -8,20 +8,10 @@
  */
 include 'libs/general.php';
 
-CronManager::init( __FILE__ , 4);
+CronManager::init( __FILE__ , 20);
 
 try
 {
-
-//    $urlArray=array(
-//        'http://gtbank.com/'=>"Guarantee trust bank",
-//        'http://www.atbu.edu.ng/' => "Abubakar Tafawa Balewa University, Bauchi",
-//        'https://abu.edu.ng/' => 'Ahmadu Bello University, Zaria'
-//        'https://abu.edu.ng/' => 'Ahmadu Bello University, Zaria'
-//    );
-//
-//    Providers::insert_url_list($urlArray);
-//    die;
 
     // GET URLs        
     $urls = Providers::get_lead_urls();    
