@@ -17,6 +17,7 @@ try
 //        'http://gtbank.com/'=>"Guarantee trust bank",
 //        'http://www.atbu.edu.ng/' => "Abubakar Tafawa Balewa University, Bauchi",
 //        'https://abu.edu.ng/' => 'Ahmadu Bello University, Zaria'
+//        'https://abu.edu.ng/' => 'Ahmadu Bello University, Zaria'
 //    );
 //
 //    Providers::insert_url_list($urlArray);
