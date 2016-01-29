@@ -38,6 +38,8 @@ try
         }
 
         _w('Createing general CA data');
+
+        _w('populating search table');
         Providers::create_search_item($ca);
         
         
