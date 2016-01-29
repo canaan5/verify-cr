@@ -12,7 +12,6 @@ CronManager::init( __FILE__ , 20);
 
 try
 {
-
     // GET URLs        
     $urls = Providers::get_lead_urls();    
     
