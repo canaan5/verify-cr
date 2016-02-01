@@ -73,7 +73,7 @@ class Providers {
      * @param string $url
      * @return array|boolean
      */
-    public static function get_or_create_url_by_url($url)
+    public static function get_or_create_url_by_url($url, $auto_inserted = false)
     {
         if(self::get_url_by_url($url))
             return self::get_url_by_url($url);
@@ -81,7 +81,7 @@ class Providers {
         
         
         $host = self::get_or_create_host_by_url($url);                              
-        db::create_url($host['id'], $url);
+        db::create_url($host['id'], $url, $auto_inserted);
         
         $ourl = self::get_url_by_url($url,true);        
 
@@ -130,16 +130,16 @@ class Providers {
      * 
      * @param array $urls
      */
-    public static function insert_url_list($urls)
-    {        
+    public static function insert_url_list($urls, $auto_inserted = true)
+    {
         foreach($urls as $url => $desc)
         {            
             // Actualy i dont care about "$desc" :)
             if(self::get_url_by_url($url))
                 continue;
-            
+
             if(Providers::isUrlAllowed($url))
-                self::get_or_create_url_by_url($url);            
+                self::get_or_create_url_by_url($url, $auto_inserted);
         }
     }
     /**

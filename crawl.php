@@ -8,7 +8,7 @@
  */
 include 'libs/general.php';
 
-CronManager::init( __FILE__ , 20);
+CronManager::init( __FILE__ , 4);
 
 try
 {
@@ -19,7 +19,7 @@ try
     
     /// PROCESS URLS    
     foreach($urls as $url)
-    {        
+    {
         // Parse array to url
         $url_w = urls::create_url($url);
 
@@ -40,8 +40,14 @@ try
         _w('Createing general CA data');
 
         _w('populating search table');
-        Providers::create_search_item($ca);
-        
+        if ( Providers::create_search_item($ca) )
+        {
+            _w("search data inserted");
+        } else {
+
+            _w("unable to insert search data");
+            exit;
+        }
         
         _w('setting status to indexed');
         Providers::change_url_status($url_w, Providers::URLS_TYPE_INDEXED);        

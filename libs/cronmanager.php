@@ -150,7 +150,7 @@ class CronManager {
      * @param int $max_processes
      * @return CronManager
      */
-    public static function init($_prefix='cron',$max_processes=1)
+    public static function init($_prefix='cron', $max_processes=1)
     {        
         CronManager::check_configs();
         return CronManager::getSingleton($_prefix,$max_processes);                

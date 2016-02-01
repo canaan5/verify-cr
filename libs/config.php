@@ -19,26 +19,47 @@ class Config {
      * DB CONFIGS
      * @var array
      */
-    public static $db_configs = array(
-        'read'=>array(
-            'connection_string'=>'mysql:host=192.168.0.108;dbname=verifyng',
-            'username'=>'root',
-            'password'=>'verifyng',
-            'port'=>'3306'
-        ),
-        'write'=>array(
-            'connection_string'=>'mysql:host=192.168.0.108;dbname=verifyng',
-            'username'=>'root',
-            'password'=>'verifyng',
-            'port'=>'3306'
-        ),
-        'fulltext-write'=>array(
-            'connection_string'=>'mysql:host=192.168.0.108;dbname=verifyng',
-            'username'=>'root',
-            'password'=>'verifyng',
-            'port'=>'3306'
-        )
-    );
+    // public static $db_configs = array(
+    //     'read'=>array(
+    //         'connection_string'=>'mysql:host=127.0.0.1;dbname=crowler_db',
+    //         'username'=>'kesty',
+    //         'password'=>'canaan',
+    //         'port'=>'3306'
+    //     ),
+    //     'write'=>array(
+    //         'connection_string'=>'mysql:host=127.0.0.1;dbname=crowler_db',
+    //         'username'=>'kesty',
+    //         'password'=>'canaan',
+    //         'port'=>'3306'
+    //     ),
+    //     'fulltext-write'=>array(
+    //         'connection_string'=>'mysql:host=127.0.0.1;dbname=crowler_db',
+    //         'username'=>'kesty',
+    //         'password'=>'canaan',
+    //         'port'=>'3306'
+    //     )
+    // );
+   public static $db_configs = array(
+       'read'=>array(
+           'connection_string'=>'mysql:host=192.168.0.108;dbname=verifyng',
+           'username'=>'root',
+           'password'=>'verifyng',
+           'port'=>'3306'
+       ),
+       'write'=>array(
+           'connection_string'=>'mysql:host=192.168.0.108;dbname=verifyng',
+           'username'=>'root',
+           'password'=>'verifyng',
+           'port'=>'3306'
+       ),
+       'fulltext-write'=>array(
+           'connection_string'=>'mysql:host=192.168.0.108;dbname=verifyng',
+           'username'=>'root',
+           'password'=>'verifyng',
+           'port'=>'3306'
+       )
+   );
+
 }
 
 

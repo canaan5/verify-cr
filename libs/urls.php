@@ -12,7 +12,7 @@ class urls {
      */
     public static function create_url($array)
     {
-        return (isset($array['https'])&&$array['https']==true?'https':'http')
+        return (isset($array['https']) && $array['https']==true?'https':'http')
             .'://' . $array['host'] . (isset($array['port'])&&$array['port']!=80?':'.$array['port']:'')
             . (isset($array['path'])?$array['path']:'/')
             . (isset($array['get_params'])&&$array['get_params']?'?'.$array['get_params']:'');

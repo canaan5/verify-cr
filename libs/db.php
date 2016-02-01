@@ -212,16 +212,30 @@ class db {
      * @param string $url
      * @return mixed
      */
-    public static function create_url($host_id, $url)
+    public static function create_url($host_id, $url, $auto_inserted = true)
     {
+
         $params = self::create_url_params_from_url($url);
-        $params['host_id']=$host_id;
-        self::getWrite_PrepareSql(
-                "INSERT IGNORE urls 
-                    (  host_id,  path,  get_params, type  ) 
-                 VALUES 
-                    ( :host_id, :path, :query ,     'lead'  )",
-                $params);      
+        $params['host_id'] = $host_id;
+        if ( $auto_inserted )
+        {
+            self::getWrite_PrepareSql(
+                "INSERT IGNORE urls
+                    (  host_id,  path,  get_params, type, auto_inserted  )
+                 VALUES
+                    ( :host_id, :path, :query, 'lead', 1)",
+                $params);
+
+        } else {
+
+            self::getWrite_PrepareSql(
+                "INSERT IGNORE urls
+                    (  host_id,  path,  get_params, type, auto_inserted  )
+                 VALUES
+                    ( :host_id, :path, :query, 'lead', 0)",
+                $params);
+        }
+
         return self::getInstance('write')->getConnection()->lastInsertId();
     }
 
