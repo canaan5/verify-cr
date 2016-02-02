@@ -8,7 +8,7 @@
  */
 include 'libs/general.php';
 
-CronManager::init( __FILE__ , 4);
+CronManager::init( __FILE__ , 20);
 
 try
 {
