@@ -120,7 +120,7 @@ class db {
      * Get Leads url
      * @return array
      */
-    public static function get_lead_urls()            
+    public static function get_lead_urls($url = null)
     {
         $sql_statement = self::getRead_PrepareSql('SELECT * FROM random_leads');
         return $sql_statement->fetchAll(PDO::FETCH_ASSOC);

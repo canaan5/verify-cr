@@ -41,21 +41,21 @@ class Config {
     // );
    public static $db_configs = array(
        'read'=>array(
-           'connection_string'=>'mysql:host=192.168.0.102;dbname=verifyng',
-           'username'=>'root',
-           'password'=>'verifyng',
+           'connection_string'=>'mysql:host=192.168.0.111;dbname=verifyng',
+           'username'=>'kesty',
+           'password'=>'canaan',
            'port'=>'3306'
        ),
        'write'=>array(
-           'connection_string'=>'mysql:host=192.168.0.102;dbname=verifyng',
-           'username'=>'root',
-           'password'=>'verifyng',
+           'connection_string'=>'mysql:host=192.168.0.111;dbname=verifyng',
+           'username'=>'kesty',
+           'password'=>'canaan',
            'port'=>'3306'
        ),
        'fulltext-write'=>array(
-           'connection_string'=>'mysql:host=192.168.0.102;dbname=verifyng',
-           'username'=>'root',
-           'password'=>'verifyng',
+           'connection_string'=>'mysql:host=192.168.0.111;dbname=verifyng',
+           'username'=>'kesty',
+           'password'=>'canaan',
            'port'=>'3306'
        )
    );
