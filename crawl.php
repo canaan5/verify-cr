@@ -43,15 +43,19 @@ try
         if ( Providers::create_search_item($ca) )
         {
             _w("search data inserted");
-            continue;
+
         } else {
 
             _w("unable to insert search data");
-            continue;
         }
         
         _w('setting status to indexed');
-        Providers::change_url_status($url_w, Providers::URLS_TYPE_INDEXED);        
+        if ( Providers::change_url_status($url_w, Providers::URLS_TYPE_INDEXED) )
+        {
+            _w('status changed to INDEXED');
+        } else {
+            _w('unable to change status');
+        }
         
         _w('inserting all other urls');
         Providers::insert_url_list( $ca->getLinks() );
