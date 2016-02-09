@@ -43,10 +43,11 @@ try
         if ( Providers::create_search_item($ca) )
         {
             _w("search data inserted");
+            continue;
         } else {
 
             _w("unable to insert search data");
-            exit;
+            continue;
         }
         
         _w('setting status to indexed');
