@@ -54,13 +54,21 @@ class HTML {
 
     public static function getTextBetweenTags($string, $tagname)
     {
-        $pattern = "/<$tagname>(.*?)<\/$tagname>/";
-        preg_match($pattern, $string, $matches);
-        if(isset($matches[1]))
-            return $matches[1];
-        else
-            return array();
+        libxml_use_internal_errors(true);
+        $dom = new DOMDocument();
+        @$dom->loadHTML($string);
+        $text = $dom->getElementsByTagName($tagname)->item(0)->nodeValue;
+
+        return trim($text);
+
+//        $pattern = "/<$tagname>(.*?)<\/$tagname>/";
+//        preg_match($pattern, $string, $matches);
+//        if(isset($matches[1]))
+//            return $matches[1];
+//        else
+//            return array();
     }
+
     /**
      * Getting plain text from html
      * @param string $content

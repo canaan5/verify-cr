@@ -26,7 +26,7 @@ class urls {
      * @param string $real_url
      * @return array
      */
-    public static function create_full_url_list($url_list,$real_url)
+    public static function create_full_url_list($url_list, $real_url)
     {
         $realUrl = parse_url($real_url);        
         
@@ -34,6 +34,7 @@ class urls {
         
         foreach ($url_list as $_key=>$_value) 
         {
+
             $key =   HTML::convert_spatial_symbols(HTML::clear_whitespaces($_key));
             $value = HTML::convert_spatial_symbols(HTML::clear_whitespaces($_value));
 
@@ -52,10 +53,19 @@ class urls {
             /**
              * Add as-it-is to list
              */
-            if(substr(strtolower($key), 0, 7)=='http://')
-            {
-                $newArr[$key]=$value;
+            if(substr(strtolower($key), 0, 7)=='http://') {
+                /**
+                 * Dont insert url if its not from the same host.
+                 */
+                if (parse_url($key)['host'] == $realUrl['host'])
+                {
+                    $newArr[$key]=$value;
+                    continue;
+                }
+
                 continue;
+
+
             }                
 
             /**
@@ -63,8 +73,14 @@ class urls {
              */
             if(substr(strtolower($key), 0, 8)=='https://')
             {
-                $newArr[$key]=$value;
-                continue;
+                /**
+                 * Dont insert url if its not from the same host.
+                 */
+                if (parse_url($key)['host'] == $realUrl['host'])
+                {
+                    $newArr[$key]=$value;
+                    continue;
+                }
             }                
 
 

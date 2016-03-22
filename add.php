@@ -1,10 +1,13 @@
 <?php
 
-
 include 'libs/general.php';
 
-$urlArray=array(
-    'http://jimtechs.com/' => "Mobile Tech World"
-	);
+$urlArray = array(
+	'http://jobberman.com/' => "Jobberman",
+	'https://ngcareers.com/' => "Nigeria Carrers",
+	'http://www.careers24.com.ng/' => "Carreer24",
+);
 
-	Providers::insert_url_list($urlArray, false);
+Providers::insert_url_list($urlArray);
+
+?>

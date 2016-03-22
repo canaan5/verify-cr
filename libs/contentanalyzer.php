@@ -125,11 +125,54 @@ class ContentAnalyzer {
     {
         if($this->_plain_content)
             return $this->_plain_content;
-        
-        
+
         $this->_plain_content = HTML::clear_whitespaces(HTML::stripTags($this->_content));
         
         return $this->_plain_content;                
+    }
+
+    /**
+     * Geting Alternative text without tags
+     * @return string
+     */
+    public function getOgDescription()
+    {
+        libxml_use_internal_errors(true);
+        $doc = new DomDocument();
+        $doc->loadHTML($this->_content);
+        $xpath = new DOMXPath($doc);
+        $query = '//*/meta[starts-with(@property, \'og:\')]';
+        $metas = $xpath->query($query);
+        foreach ($metas as $meta) {
+            $property = $meta->getAttribute('property');
+            $content = $meta->getAttribute('content');
+
+            if ( $property == "og:description" )
+                return $content;
+        }
+
+    }
+
+    /**
+     * Geting Alternative text without tags
+     * @return string
+     */
+    public function getOgTitle()
+    {
+        libxml_use_internal_errors(true);
+        $doc = new DomDocument();
+        $doc->loadHTML($this->_content);
+        $xpath = new DOMXPath($doc);
+        $query = '//*/meta[starts-with(@property, \'og:\')]';
+        $metas = $xpath->query($query);
+        foreach ($metas as $meta) {
+            $property = $meta->getAttribute('property');
+            $content = $meta->getAttribute('content');
+
+            if ( $property == "og:title" )
+                return $content;
+        }
+
     }
     /**
      * Getting meta tags from content
@@ -147,7 +190,7 @@ class ContentAnalyzer {
      * @return string
      */
     public function getTitle()
-    {        
+    {
         if(!$this->meta_title)
         {
             $btgs = HTML::getTextBetweenTags($this->_content,'title');
@@ -155,6 +198,15 @@ class ContentAnalyzer {
         }        
 
         return $this->meta_title;
+    }
+
+    /**
+     * Get the current Url
+     * @return string
+     */
+    public function getUrl()
+    {
+        return $this->_url;
     }
 }
 
