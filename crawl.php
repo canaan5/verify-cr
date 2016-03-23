@@ -2,7 +2,7 @@
 
 include 'libs/general.php';
 
-CronManager::init(__FILE__, 8);
+CronManager::init(__FILE__, 10);
 
 try
 {

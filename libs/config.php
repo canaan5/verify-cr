@@ -19,45 +19,45 @@ class Config {
 	 * DB CONFIGS
 	 * @var array
 	 */
-	public static $db_configs = array(
-		'read' => array(
-			'connection_string' => 'mysql:host=127.0.0.1;dbname=test_verifyng',
-			'username' => 'kesty',
-			'password' => 'CanaaN55*',
-			'port' => '3306',
-		),
-		'write' => array(
-			'connection_string' => 'mysql:host=127.0.0.1;dbname=test_verifyng',
-			'username' => 'kesty',
-			'password' => 'CanaaN55*',
-			'port' => '3306',
-		),
-		'fulltext-write' => array(
-			'connection_string' => 'mysql:host=127.0.0.1;dbname=test_verifyng',
-			'username' => 'kesty',
-			'password' => 'CanaaN55*',
-			'port' => '3306',
-		),
-	);
-	// public static $db_configs = array(
-	//     'read'=>array(
-	//         'connection_string'=>'mysql:host=192.168.0.111;dbname=verifyng',
-	//         'username'=>'kesty',
-	//         'password'=>'canaan',
-	//         'port'=>'3306'
-	//     ),
-	//     'write'=>array(
-	//         'connection_string'=>'mysql:host=192.168.0.111;dbname=verifyng',
-	//         'username'=>'kesty',
-	//         'password'=>'canaan',
-	//         'port'=>'3306'
-	//     ),
-	//     'fulltext-write'=>array(
-	//         'connection_string'=>'mysql:host=192.168.0.111;dbname=verifyng',
-	//         'username'=>'kesty',
-	//         'password'=>'canaan',
-	//         'port'=>'3306'
-	//     )
-	// );
+//	public static $db_configs = array(
+//		'read' => array(
+//			'connection_string' => 'mysql:host=127.0.0.1;dbname=test_verifyng',
+//			'username' => 'kesty',
+//			'password' => 'CanaaN55*',
+//			'port' => '3306',
+//		),
+//		'write' => array(
+//			'connection_string' => 'mysql:host=127.0.0.1;dbname=test_verifyng',
+//			'username' => 'kesty',
+//			'password' => 'CanaaN55*',
+//			'port' => '3306',
+//		),
+//		'fulltext-write' => array(
+//			'connection_string' => 'mysql:host=127.0.0.1;dbname=test_verifyng',
+//			'username' => 'kesty',
+//			'password' => 'CanaaN55*',
+//			'port' => '3306',
+//		),
+//	);
+	 public static $db_configs = array(
+	     'read'=>array(
+	         'connection_string'=>'mysql:host=192.168.0.111;dbname=test_verifyng',
+	         'username'=>'verify',
+	         'password'=>'VerifyNG55*',
+	         'port'=>'3306'
+	     ),
+	     'write'=>array(
+	         'connection_string'=>'mysql:host=192.168.0.111;dbname=test_verifyng',
+			 'username'=>'verify',
+			 'password'=>'VerifyNG55*',
+	         'port'=>'3306'
+	     ),
+	     'fulltext-write'=>array(
+	         'connection_string'=>'mysql:host=192.168.0.111;dbname=test_verifyng',
+			 'username'=>'verify',
+			 'password'=>'VerifyNG55*',
+	         'port'=>'3306'
+	     )
+	 );
 
 }

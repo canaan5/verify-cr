@@ -2,28 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="572c1519-966c-44ab-86f2-435a921f611e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/lexicon.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/posttagger.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/writable/6dbdb8d370a2de2e47a727257bb8d1f1.run.pid" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/writable/71b56692cff06ead7692e415c112f2b4.run.pid" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/writable/73adf891632fc1c4be11ecf132ccaf11.run.pid" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/writable/7709fbcbe9cc52b6dd529e8aeb7b006e.run.pid" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/add.php" afterPath="$PROJECT_DIR$/add.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crawl.php" afterPath="$PROJECT_DIR$/crawl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crawl.sh" afterPath="$PROJECT_DIR$/crawl.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/cachemanager.php" afterPath="$PROJECT_DIR$/libs/cachemanager.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/config.php" afterPath="$PROJECT_DIR$/libs/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/contentanalyzer.php" afterPath="$PROJECT_DIR$/libs/contentanalyzer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/cronmanager.php" afterPath="$PROJECT_DIR$/libs/cronmanager.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/db.php" afterPath="$PROJECT_DIR$/libs/db.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/general.php" afterPath="$PROJECT_DIR$/libs/general.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/html.php" afterPath="$PROJECT_DIR$/libs/html.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/languages.php" afterPath="$PROJECT_DIR$/libs/languages.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/local-config.php" afterPath="$PROJECT_DIR$/libs/local-config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/providers.php" afterPath="$PROJECT_DIR$/libs/providers.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/robots.php" afterPath="$PROJECT_DIR$/libs/robots.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/urls.php" afterPath="$PROJECT_DIR$/libs/urls.php" />
     </list>
     <ignored path="phpcrawler.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,11 +26,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="crawl.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="crawl.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/crawl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.25">
-              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+            <state vertical-scroll-proportion="-2.8387096">
+              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/libs/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.70068026">
+              <caret line="56" column="32" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -78,7 +69,7 @@
       <file leaf-file-name="urls.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/libs/urls.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.903226">
+            <state vertical-scroll-proportion="0.0">
               <caret line="82" column="17" selection-start-line="82" selection-start-column="17" selection-end-line="82" selection-end-column="17" />
               <folding />
             </state>
@@ -95,7 +86,6 @@
       <list>
         <option value="$PROJECT_DIR$/libs/local-config.php" />
         <option value="$PROJECT_DIR$/libs/cronmanager.php" />
-        <option value="$PROJECT_DIR$/libs/config.php" />
         <option value="$PROJECT_DIR$/libs/db.php" />
         <option value="$PROJECT_DIR$/../vizi/crawl.php" />
         <option value="$PROJECT_DIR$/libs/html.php" />
@@ -104,6 +94,7 @@
         <option value="$PROJECT_DIR$/add.php" />
         <option value="$PROJECT_DIR$/libs/urls.php" />
         <option value="$PROJECT_DIR$/crawl.php" />
+        <option value="$PROJECT_DIR$/libs/config.php" />
       </list>
     </option>
   </component>
@@ -143,7 +134,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -178,7 +169,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -270,6 +261,70 @@
     <entry file="file://$PROJECT_DIR$/crawl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/contentanalyzer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="114" column="33" selection-start-line="114" selection-start-column="33" selection-end-line="114" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/urls.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="82" column="17" selection-start-line="82" selection-start-column="17" selection-end-line="82" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/contentanalyzer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="114" column="33" selection-start-line="114" selection-start-column="33" selection-end-line="114" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/urls.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="82" column="17" selection-start-line="82" selection-start-column="17" selection-end-line="82" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
           <folding />
         </state>
@@ -279,7 +334,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="58" column="11" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -287,16 +341,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="291" column="38" selection-start-line="291" selection-start-column="38" selection-end-line="291" selection-end-column="38" />
-          <folding>
-            <marker date="1458221615623" expanded="true" signature="2598:2624" placeholder="SELECT * FRO..random_leads..." />
-            <marker date="1458221615623" expanded="true" signature="2918:3135" placeholder="SELECT * FRO..hosts..." />
-            <marker date="1458221615623" expanded="true" signature="4473:4692" placeholder="SELECT * FRO..urls..." />
-            <marker date="1458221615623" expanded="true" signature="6243:6292" placeholder="UPDATE urls ..." />
-            <marker date="1458221615623" expanded="true" signature="6828:7192" placeholder="INSERT INTO search_data..." />
-            <marker date="1458221615623" expanded="true" signature="7193:7368" placeholder="UPDATE title..." />
-            <marker date="1458221615623" expanded="true" signature="7193:7369" placeholder="UPDATE title..." />
-            <marker date="1458221615623" expanded="true" signature="7193:7381" placeholder="UPDATE title..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -352,7 +396,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="35" column="48" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -384,16 +427,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="122" column="52" selection-start-line="122" selection-start-column="52" selection-end-line="122" selection-end-column="52" />
-          <folding>
-            <marker date="1458221615623" expanded="true" signature="2598:2624" placeholder="SELECT * FRO..random_leads..." />
-            <marker date="1458221615623" expanded="true" signature="2918:3135" placeholder="SELECT * FRO..hosts..." />
-            <marker date="1458221615623" expanded="true" signature="4473:4692" placeholder="SELECT * FRO..urls..." />
-            <marker date="1458221615623" expanded="true" signature="6243:6292" placeholder="UPDATE urls ..." />
-            <marker date="1458221615623" expanded="true" signature="6828:7192" placeholder="INSERT INTO search_data..." />
-            <marker date="1458221615623" expanded="true" signature="7193:7368" placeholder="UPDATE title..." />
-            <marker date="1458221615623" expanded="true" signature="7193:7369" placeholder="UPDATE title..." />
-            <marker date="1458221615623" expanded="true" signature="7193:7381" placeholder="UPDATE title..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -401,7 +434,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="35" column="48" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -425,7 +457,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -449,16 +480,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="292" column="32" selection-start-line="292" selection-start-column="32" selection-end-line="292" selection-end-column="32" />
-          <folding>
-            <marker date="1458221615623" expanded="true" signature="2598:2624" placeholder="SELECT * FRO..random_leads..." />
-            <marker date="1458221615623" expanded="true" signature="2918:3135" placeholder="SELECT * FRO..hosts..." />
-            <marker date="1458221615623" expanded="true" signature="4473:4692" placeholder="SELECT * FRO..urls..." />
-            <marker date="1458221615623" expanded="true" signature="6243:6292" placeholder="UPDATE urls ..." />
-            <marker date="1458221615623" expanded="true" signature="6828:7192" placeholder="INSERT INTO search_data..." />
-            <marker date="1458221615623" expanded="true" signature="7193:7368" placeholder="UPDATE title..." />
-            <marker date="1458221615623" expanded="true" signature="7193:7369" placeholder="UPDATE title..." />
-            <marker date="1458221615623" expanded="true" signature="7193:7381" placeholder="UPDATE title..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -466,7 +487,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="35" column="48" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -506,16 +526,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="292" column="32" selection-start-line="292" selection-start-column="32" selection-end-line="292" selection-end-column="32" />
-          <folding>
-            <marker date="1458221615623" expanded="true" signature="2598:2624" placeholder="SELECT * FRO..random_leads..." />
-            <marker date="1458221615623" expanded="true" signature="2918:3135" placeholder="SELECT * FRO..hosts..." />
-            <marker date="1458221615623" expanded="true" signature="4473:4692" placeholder="SELECT * FRO..urls..." />
-            <marker date="1458221615623" expanded="true" signature="6243:6292" placeholder="UPDATE urls ..." />
-            <marker date="1458221615623" expanded="true" signature="6828:7192" placeholder="INSERT INTO search_data..." />
-            <marker date="1458221615623" expanded="true" signature="7193:7368" placeholder="UPDATE title..." />
-            <marker date="1458221615623" expanded="true" signature="7193:7369" placeholder="UPDATE title..." />
-            <marker date="1458221615623" expanded="true" signature="7193:7381" placeholder="UPDATE title..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -523,7 +533,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="35" column="48" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -563,16 +572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="292" column="32" selection-start-line="292" selection-start-column="32" selection-end-line="292" selection-end-column="32" />
-          <folding>
-            <marker date="1458221615623" expanded="true" signature="2598:2624" placeholder="SELECT * FRO..random_leads..." />
-            <marker date="1458221615623" expanded="true" signature="2918:3135" placeholder="SELECT * FRO..hosts..." />
-            <marker date="1458221615623" expanded="true" signature="4473:4692" placeholder="SELECT * FRO..urls..." />
-            <marker date="1458221615623" expanded="true" signature="6243:6292" placeholder="UPDATE urls ..." />
-            <marker date="1458221615623" expanded="true" signature="6828:7192" placeholder="INSERT INTO search_data..." />
-            <marker date="1458221615623" expanded="true" signature="7193:7368" placeholder="UPDATE title..." />
-            <marker date="1458221615623" expanded="true" signature="7193:7369" placeholder="UPDATE title..." />
-            <marker date="1458221615623" expanded="true" signature="7193:7381" placeholder="UPDATE title..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -580,7 +579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="35" column="48" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -620,16 +618,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="292" column="32" selection-start-line="292" selection-start-column="32" selection-end-line="292" selection-end-column="32" />
-          <folding>
-            <marker date="1458221615623" expanded="true" signature="2598:2624" placeholder="SELECT * FRO..random_leads..." />
-            <marker date="1458221615623" expanded="true" signature="2918:3135" placeholder="SELECT * FRO..hosts..." />
-            <marker date="1458221615623" expanded="true" signature="4473:4692" placeholder="SELECT * FRO..urls..." />
-            <marker date="1458221615623" expanded="true" signature="6243:6292" placeholder="UPDATE urls ..." />
-            <marker date="1458221615623" expanded="true" signature="6828:7192" placeholder="INSERT INTO search_data..." />
-            <marker date="1458221615623" expanded="true" signature="7193:7368" placeholder="UPDATE title..." />
-            <marker date="1458221615623" expanded="true" signature="7193:7369" placeholder="UPDATE title..." />
-            <marker date="1458221615623" expanded="true" signature="7193:7381" placeholder="UPDATE title..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -637,7 +625,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="35" column="48" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -681,16 +668,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="278" column="35" selection-start-line="278" selection-start-column="35" selection-end-line="278" selection-end-column="35" />
-          <folding>
-            <marker date="1458221615623" expanded="true" signature="2598:2624" placeholder="SELECT * FRO..random_leads..." />
-            <marker date="1458221615623" expanded="true" signature="2918:3135" placeholder="SELECT * FRO..hosts..." />
-            <marker date="1458221615623" expanded="true" signature="4473:4692" placeholder="SELECT * FRO..urls..." />
-            <marker date="1458221615623" expanded="true" signature="6243:6292" placeholder="UPDATE urls ..." />
-            <marker date="1458221615623" expanded="true" signature="6828:7192" placeholder="INSERT INTO search_data..." />
-            <marker date="1458221615623" expanded="true" signature="7193:7368" placeholder="UPDATE title..." />
-            <marker date="1458221615623" expanded="true" signature="7193:7369" placeholder="UPDATE title..." />
-            <marker date="1458221615623" expanded="true" signature="7193:7381" placeholder="UPDATE title..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -709,13 +686,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crawl.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/libs/general.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.059863947">
@@ -727,7 +697,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.2149659">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -735,7 +704,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -751,7 +719,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5632653">
           <caret line="35" column="48" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -759,7 +726,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -774,15 +740,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-18.870968">
           <caret line="819" column="20" selection-start-line="819" selection-start-column="20" selection-end-line="819" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3891157">
-          <caret line="55" column="57" selection-start-line="55" selection-start-column="57" selection-end-line="55" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -797,24 +754,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.225806">
           <caret line="291" column="38" selection-start-line="291" selection-start-column="38" selection-end-line="291" selection-end-column="38" />
-          <folding>
-            <marker date="1458221615623" expanded="true" signature="2598:2624" placeholder="SELECT * FRO..random_leads..." />
-            <marker date="1458221615623" expanded="true" signature="2918:3135" placeholder="SELECT * FRO..hosts..." />
-            <marker date="1458221615623" expanded="true" signature="4473:4692" placeholder="SELECT * FRO..urls..." />
-            <marker date="1458221615623" expanded="true" signature="6243:6292" placeholder="UPDATE urls ..." />
-            <marker date="1458221615623" expanded="true" signature="6828:7192" placeholder="INSERT INTO search_data..." />
-            <marker date="1458221615623" expanded="true" signature="7193:7368" placeholder="UPDATE title..." />
-            <marker date="1458221615623" expanded="true" signature="7193:7369" placeholder="UPDATE title..." />
-            <marker date="1458221615623" expanded="true" signature="7193:7381" placeholder="UPDATE title..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.967742">
-          <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -830,14 +769,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.35918367">
           <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/libs/urls.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.903226">
+        <state vertical-scroll-proportion="0.0">
           <caret line="82" column="17" selection-start-line="82" selection-start-column="17" selection-end-line="82" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.967742">
+          <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
           <folding />
         </state>
       </provider>
@@ -850,10 +796,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/crawl.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/crawl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.25">
-          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        <state vertical-scroll-proportion="-2.8387096">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.70068026">
+          <caret line="56" column="32" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
           <folding />
         </state>
       </provider>
